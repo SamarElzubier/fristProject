@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('myApp',
-          style: TextStyle(fontSize: 40,color: Color.fromARGB(255, 126, 101, 175) ),
+          style: TextStyle(fontSize: 40,color: Color(0xffC68484) ),
           
          ),
          centerTitle: true,
          backgroundColor: Color(0xffB784B7),
-         leading: Icon(Icons.favorite, color: Colors.red,),
+         leading: Icon(Icons.favorite, color: Color(0xff9B4444)),
         ),
         body: Center(child: Text('welcome',
         style: TextStyle(fontSize: 50,color: Color(0xffE493B3)),)),
