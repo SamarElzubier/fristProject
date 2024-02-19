@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:sampleproject/icon.dart';
 //import 'package:sampleproject/container.dart';
-//import 'package:sampleproject/container.dart';
 //import 'package:sampleproject/assetimage.dart';
 //import 'package:sampleproject/image.dart';
 
