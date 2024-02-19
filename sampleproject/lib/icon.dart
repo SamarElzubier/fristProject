@@ -18,7 +18,7 @@ class Faicon extends StatelessWidget {
       body: Center(
         
         child: Container(
-         padding: EdgeInsets.all(30),
+         padding: EdgeInsets.all(70),
         //   height: 300,
         //  width: 200,
           decoration: BoxDecoration(
