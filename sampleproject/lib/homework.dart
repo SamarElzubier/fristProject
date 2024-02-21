@@ -38,7 +38,7 @@ class HomeWork extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
              children: [Container( 
         decoration: BoxDecoration(
-           boxShadow: [BoxShadow(color: Color.fromARGB(255, 121, 143, 239),
+           boxShadow: [BoxShadow(color: Color.fromARGB(255, 118, 118, 118),
            offset: Offset(-10, 10),
            blurRadius:25,
             ),
@@ -54,7 +54,7 @@ class HomeWork extends StatelessWidget {
         
         FaIcon(Icons.messenger,size: 50,
         color: Color.fromARGB(255, 9, 134, 38),shadows: [BoxShadow(color: const Color.fromARGB(255, 5, 4, 4),
-        offset: Offset(-10, 10),
+        offset: Offset(-10, 10), 
         blurRadius: 30,blurStyle: BlurStyle.solid), 
         
         ],)
