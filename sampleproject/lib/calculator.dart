@@ -265,7 +265,7 @@ SizedBox(height: 20,),
            children: [
              Column(
              
-        //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        
             
               children:[
                 Row(
@@ -286,7 +286,6 @@ SizedBox(height: 20,),
               style: TextStyle(fontSize: 30, color: Color.fromARGB(255, 14, 14, 14),), )),
             )
           ),
-         // SizedBox(width: 70,),
          
           GestureDetector(
               onTap: () {
@@ -304,8 +303,7 @@ SizedBox(height: 20,),
                )),
             )
           ),
-         // SizedBox(width: 70,
-         // ),
+         
           GestureDetector(
               onTap: () {
                 setState(() {});
@@ -324,9 +322,7 @@ SizedBox(height: 20,),
           ),
                ]  ),
                 SizedBox(height: 20,),
-                Row(
-             // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  
+            Row(
             children: [
             GestureDetector(
               onTap: () {
@@ -343,7 +339,7 @@ SizedBox(height: 20,),
               style: TextStyle(fontSize: 30, color: Color.fromARGB(255, 14, 14, 14),), )),
             )
           ),
-         // SizedBox(width: 70,),
+          SizedBox(width: 70,),
           GestureDetector(
               onTap: () {
                 setState(() {});
@@ -360,8 +356,6 @@ SizedBox(height: 20,),
                )),
             )
           ),
-        // SizedBox(width: 70,),
-
           GestureDetector(
               onTap: () {
                 setState(() {});
@@ -381,8 +375,7 @@ SizedBox(height: 20,),
               ]
                 ),
                 ],
-              
-             ),
+               ),
 SizedBox(width: 30,),
             GestureDetector(
               onTap: () {setState(() {
@@ -404,22 +397,12 @@ SizedBox(width: 30,),
                       decoration: BoxDecoration(color: equal, borderRadius: BorderRadius.circular(30)),
                       child: Center(child: Text("=",
                       style: TextStyle(fontSize: 30, color: Colors.white),))),
-                          ) 
-         ],
-               ),
-        ])
-        )
-      
-         )
-      
-         );
-         
-         
-      
-    
-      
-         
-            
-
-  }
-}
+                   ) 
+                  ],
+                 ),
+                 ])
+                )
+                )
+               );
+              }
+              }
