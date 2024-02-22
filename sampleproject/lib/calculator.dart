@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers
 
-import 'dart:ffi';
-import 'dart:math';
+//import 'dart:ffi';
+//import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -261,15 +261,15 @@ SizedBox(height: 20,),
          SizedBox(height: 20,
          ),
          Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
            children: [
              Column(
              
-        
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             
-              children:[
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.end,
+             children:[
+               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
             GestureDetector(
               onTap: () {
@@ -323,6 +323,7 @@ SizedBox(height: 20,),
                ]  ),
                 SizedBox(height: 20,),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
             GestureDetector(
               onTap: () {
@@ -339,8 +340,7 @@ SizedBox(height: 20,),
               style: TextStyle(fontSize: 30, color: Color.fromARGB(255, 14, 14, 14),), )),
             )
           ),
-          SizedBox(width: 70,),
-          GestureDetector(
+         GestureDetector(
               onTap: () {
                 setState(() {});
                 result=result+"0";
@@ -400,9 +400,10 @@ SizedBox(width: 30,),
                    ) 
                   ],
                  ),
-                 ])
+                 ]
+                 )
                 )
-                )
+              )
                );
               }
               }
