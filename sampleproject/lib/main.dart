@@ -1,7 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:sampleproject/homework.dart';
+import 'package:sampleproject/calculator.dart';
+//import 'package:sampleproject/homework.dart';
 //import 'package:sampleproject/roww.dart';
 
 
@@ -14,7 +15,7 @@ import 'package:sampleproject/homework.dart';
 
 void main() {
   runApp(MaterialApp(
-    home:HomeWork()));
+    home:Calculate()));
   }
 
 
