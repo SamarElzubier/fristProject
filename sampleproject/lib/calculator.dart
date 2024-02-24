@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers
 
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -259,14 +258,7 @@ SizedBox(height: 20,),
          ]),
          SizedBox(height: 20,
          ),
-       //  Row(
-      // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-           //children: [
-            // Column(
-             
-       // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            
-            // children:[
+
                Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -395,12 +387,6 @@ GestureDetector(
                )),
             )
           ),
-           //   ]
-           //     ),
-           //  ]
-           //  ), 
-               
-//SizedBox(width: 30,),
            
              GestureDetector(
               onTap: () {setState(() {
@@ -422,16 +408,11 @@ GestureDetector(
                       decoration: BoxDecoration(color: equal, borderRadius: BorderRadius.circular(30)),
                       child: Center(child: Text("=",
                       style: TextStyle(fontSize: 30, color: Colors.white),))),
-                   ) 
-             ],
-                 ),
-                // ]
-              ]   )
-         //  ]
+          ) 
+             ]),
+              ])
            )
-        //   ]
-           ) );
-          //    )
-           //    );
-              }
-              }
+        )
+        );
+     }
+     }
