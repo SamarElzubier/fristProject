@@ -333,8 +333,6 @@ GestureDetector(
 
 
          ]),
-         // ] 
-          //)
 
                 SizedBox(height: 20,),
             Row(
