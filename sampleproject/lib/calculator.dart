@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, avoid_unnecessary_containers
 
-//import 'dart:ffi';
-//import 'dart:math';
+import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -49,7 +48,7 @@ String result="";
             
             children: [
               Container(
-                child: Text(result),
+                child: Text(result,style: TextStyle(fontSize: 40),),
               ),
             ],
           ),
@@ -260,14 +259,14 @@ SizedBox(height: 20,),
          ]),
          SizedBox(height: 20,
          ),
-         Row(
-       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-           children: [
-             Column(
+       //  Row(
+      // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+           //children: [
+            // Column(
              
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+       // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             
-             children:[
+            // children:[
                Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -320,7 +319,31 @@ SizedBox(height: 20,),
                )),
             )
           ),
-               ]  ),
+GestureDetector(
+              onTap: () {
+                setState(() {});
+                result=result+".";
+                print(result);
+              },
+            
+           child: Container(
+               height: height,
+               width: width,
+              decoration: BoxDecoration(color: baseCol, borderRadius: BorderRadius.circular(30)),
+              
+             child: Center(child:
+               Text(".",
+              style: TextStyle(fontSize: 40, color: Colors.white, ),
+              )),
+            )
+          ),
+
+
+
+         ]),
+         // ] 
+          //)
+
                 SizedBox(height: 20,),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -372,12 +395,14 @@ SizedBox(height: 20,),
                )),
             )
           ),
-              ]
-                ),
-                ],
-               ),
-SizedBox(width: 30,),
-            GestureDetector(
+           //   ]
+           //     ),
+           //  ]
+           //  ), 
+               
+//SizedBox(width: 30,),
+           
+             GestureDetector(
               onTap: () {setState(() {
                 
               });
@@ -392,18 +417,21 @@ SizedBox(width: 30,),
     }
            },
                 child: Container(
-                   height: 2*height+20,
+                   height: height,
                     width: width,
                       decoration: BoxDecoration(color: equal, borderRadius: BorderRadius.circular(30)),
                       child: Center(child: Text("=",
                       style: TextStyle(fontSize: 30, color: Colors.white),))),
                    ) 
-                  ],
+             ],
                  ),
-                 ]
-                 )
-                )
-              )
-               );
+                // ]
+              ]   )
+         //  ]
+           )
+        //   ]
+           ) );
+          //    )
+           //    );
               }
               }
