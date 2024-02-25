@@ -69,7 +69,7 @@ String result="";
            child: Container(
                height: height,
                width: width,
-              decoration: BoxDecoration(color: baseCol, borderRadius: BorderRadius.circular(30)),
+              decoration: BoxDecoration( color: baseCol, borderRadius: BorderRadius.circular(30)),
               child: Center(child: Text('C',
               style: TextStyle(fontSize: 30, color: Color.fromARGB(255, 208, 32, 32),), )),
             )

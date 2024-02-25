@@ -1,4 +1,6 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
+
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -54,8 +56,7 @@ class _TextfState extends State<Textf> {
             Spacer(),
             Text('enter height in CM'),
             Container(height: 70,
-            
-              decoration: 
+             decoration: 
               BoxDecoration(
               //color: Colors.blueAccent,
               borderRadius: BorderRadius.circular(40),
@@ -107,9 +108,9 @@ class _TextfState extends State<Textf> {
             GestureDetector(onTap: () {setState(() {
               
             });
-              double h2=h*h/10000;
-              double BMI =w / h2;
-              result=BMI.toStringAsFixed(2);
+              double h2=h*h/10000;//cm to metar
+              double BMI =w / h2;//rule of bmi
+              result=BMI.toStringAsFixed(2); //  بحولا الى استرينق لاني اصلا كاتبة في ال تكست فيلد
               print(result);
               print(h);
               print(w);
