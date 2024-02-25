@@ -29,12 +29,15 @@ String result="";
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(leading: Icon(Icons.arrow_back),
-        title: Text("Calculator", style: TextStyle(fontSize: 20,fontFamily: 'flut'),),centerTitle: true,backgroundColor: Colors.blue,
+        title: Text("Calculator", style: TextStyle(fontSize: 20,fontFamily: 'flut'),),centerTitle: true,
+        backgroundColor: Colors.blue,
       ),
-      body: SafeArea(child: 
+      body: SafeArea( 
+        child: 
       Container(
+        
         padding: EdgeInsets.all(30),
-        color: Color(0xffFEECE2),
+       color: Color(0xffFEECE2),
         
         child: Column(
           
@@ -47,7 +50,8 @@ String result="";
             
             children: [
               Container(
-                child: Text(result,style: TextStyle(fontSize: 40),),
+                
+                child: Text(result,style: TextStyle(fontSize: 40,),),
               ),
             ],
           ),
