@@ -1,9 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:sampleproject/buttom.dart';
 
 //import 'package:sampleproject/calculator.dart';
-import 'package:sampleproject/textfield.dart';
+//import 'package:sampleproject/textfield.dart';
 //import 'package:sampleproject/homework.dart';
 //import 'package:sampleproject/roww.dart';
 
@@ -18,7 +19,7 @@ import 'package:sampleproject/textfield.dart';
 void main() {
   runApp(MaterialApp(
    // theme: ThemeData.dark(),
-    home:Textf()));
+    home:Butto()));
   }
 
 
