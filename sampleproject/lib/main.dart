@@ -1,8 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:sampleproject/BMI.dart';
 //import 'package:sampleproject/dropDownButton.dart';
-import 'package:sampleproject/typeButton.dart';
+//import 'package:sampleproject/typeButton.dart';
 
 //import 'package:sampleproject/calculator.dart';
 //import 'package:sampleproject/textfield.dart';
@@ -19,8 +20,8 @@ import 'package:sampleproject/typeButton.dart';
 
 void main() {
   runApp(MaterialApp(
-   // theme: ThemeData.dark(),
-    home: Butto()));
+    theme: ThemeData.dark(),
+    home: BodyMath()));
   }
 
 

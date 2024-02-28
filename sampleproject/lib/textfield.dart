@@ -105,7 +105,8 @@ class _TextfState extends State<Textf> {
             SizedBox(height:30),
             Text(result),
             Spacer(),
-            GestureDetector(onTap: () {setState(() {
+            GestureDetector(onTap: () {
+              setState(() {
               
             });
               double h2=h*h/10000;//cm to metar
