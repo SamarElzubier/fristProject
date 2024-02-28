@@ -21,7 +21,7 @@ class _BodyMathState extends State<BodyMath> {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title:Text('calculate BMI') ,leading: Icon(Icons.arrow_back_rounded),backgroundColor: Color(0xff944E63),
+        title:Text('BMI calculator') ,leading: Icon(Icons.arrow_back_rounded),backgroundColor: Color(0xff944E63),
         centerTitle: true,
       ),
       body: SafeArea(
