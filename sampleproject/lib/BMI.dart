@@ -79,7 +79,7 @@ class _BodyMathState extends State<BodyMath> {
                    setState(() {
                      
                    });
-               double h2 = h*h/1000;
+               double h2 = h*h/10000;
                double BMI = w/h2;
                result =BMI.toStringAsFixed(2);
                  }),
