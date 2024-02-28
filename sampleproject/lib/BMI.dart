@@ -83,16 +83,14 @@ class _BodyMathState extends State<BodyMath> {
                double BMI = w/h2;
                result =BMI.toStringAsFixed(2);
                  }),
-                 style: ElevatedButton.styleFrom(backgroundColor: Color(0xffFFE7E7),)
-,                  child: Text('calculate',style: TextStyle(color: Color(0xff944E63),),
+                 style: ElevatedButton.styleFrom(backgroundColor: Color(0xffFFE7E7),),
+                 child: Text('calculate',style: TextStyle(color: Color(0xff944E63),),
                  )
-                 
                  ),
-                  ],
+               ],
               ),
             ),
           ),
-         
-    );
+     );
   }
 }
