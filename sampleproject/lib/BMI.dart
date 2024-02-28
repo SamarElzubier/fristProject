@@ -39,11 +39,11 @@ class _BodyMathState extends State<BodyMath> {
                   )]),
                   SizedBox(height: 30,),
                   Text(' Height in CM',style: TextStyle (color: Color(0xffB47B84),fontSize: 20),),
-                  TextField(
+                   TextField(
                     onChanged: (value) {
                       h =double.parse(value);
                     },
-                    keyboardType: TextInputType.number,cursorColor: Color(0xffFFE7E7),
+                     keyboardType: TextInputType.number,cursorColor: Color(0xffFFE7E7),
                     decoration: InputDecoration(
                       hintText: 'write your height',hintStyle:TextStyle(color: Colors.blueGrey),
                        suffixIcon: Icon(Icons.height),suffixIconColor: Colors.blueGrey,
@@ -66,7 +66,6 @@ class _BodyMathState extends State<BodyMath> {
                        suffixIcon: Icon(Icons.monitor_weight_outlined),suffixIconColor: Colors.blueGrey,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
-                     
                       )
                     ),
                   ),
@@ -83,7 +82,8 @@ class _BodyMathState extends State<BodyMath> {
                double BMI = w/h2;
                result =BMI.toStringAsFixed(2);
                  }),
-                 style: ElevatedButton.styleFrom(backgroundColor: Color(0xffFFE7E7),),
+                 style: ElevatedButton.styleFrom(backgroundColor: Color(0xffFFE7E7),foregroundColor: Color(0xff944E63),
+                 side: BorderSide(color: Colors.brown.shade400)),
                  child: Text('calculate',style: TextStyle(color: Color(0xff944E63),),
                  )
                  ),
