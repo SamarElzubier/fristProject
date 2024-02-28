@@ -9,6 +9,9 @@ class Navigate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('navigate'),centerTitle: true,backgroundColor: Colors.black54,
+      ),
       body: SafeArea(
         child: Center(
           child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
