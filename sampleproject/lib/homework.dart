@@ -17,7 +17,7 @@ class HomeWork extends StatelessWidget {
         ),
         centerTitle: true,
         backgroundColor: Color.fromARGB(255, 218, 216, 169),
-        leading: Icon(Icons.add_a_photo),
+        leading: Icon(Icons.add_a_photo,color: Colors.black,),
         
       ),
       body: SafeArea(
@@ -30,9 +30,9 @@ class HomeWork extends StatelessWidget {
               CircleAvatar(
                 backgroundImage:AssetImage('assets/logo/image2.jpg',)
                 ,radius: 90,),
-                Text('samar elzubier', style: TextStyle(fontFamily: 'flu', fontSize: 30),
+                Text('samar elzubier', style: TextStyle(fontFamily: 'flu', fontSize: 30,color: Colors.black),
                 ),
-             Text('samarmaruod@gmail.com', style: TextStyle(fontFamily: 'flu',fontSize: 20),),
+             Text('samarmaruod@gmail.com', style: TextStyle(fontFamily: 'flu',fontSize: 20,color: Colors.black),),
              SizedBox(height: 170),
              Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -62,9 +62,9 @@ class HomeWork extends StatelessWidget {
             SizedBox(height: 30,),
  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
   children: [
-    Text("facebook",style: TextStyle(fontFamily:'flutt' ),),
-    Text("telegram",style: TextStyle(fontFamily: 'flutt'),),
-    Text("message",style: TextStyle(fontFamily: 'flutt'),)
+    Text("facebook",style: TextStyle(fontFamily:'flutt',color: Colors.black ),),
+    Text("telegram",style: TextStyle(fontFamily: 'flutt',color: Colors.black),),
+    Text("message",style: TextStyle(fontFamily: 'flutt',color: Colors.black),)
   ],
  )
                     

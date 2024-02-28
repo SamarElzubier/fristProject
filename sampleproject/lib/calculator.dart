@@ -28,7 +28,9 @@ String result="";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(leading: Icon(Icons.arrow_back),
+      appBar: AppBar(leading: IconButton(onPressed: (() {
+        Navigator.pop(context);//لتشغيل الايقون
+      }), icon: Icon(Icons.arrow_back),),
         title: Text("Calculator", style: TextStyle(fontSize: 20,fontFamily: 'flut'),),centerTitle: true,
         backgroundColor: Colors.blue,
       ),

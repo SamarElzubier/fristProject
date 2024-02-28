@@ -21,7 +21,12 @@ class _BodyMathState extends State<BodyMath> {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title:Text('BMI calculator') ,leading: Icon(Icons.arrow_back_rounded),backgroundColor: Color(0xff944E63),
+        title:Text('BMI calculator') ,
+        leading: IconButton(onPressed: (() {
+          Navigator.pop(context);//pop navigation for back
+        }), 
+        icon: Icon(Icons.arrow_back_rounded),)
+        ,backgroundColor: Color(0xff944E63),
         centerTitle: true,
       ),
       body: SafeArea(
@@ -40,6 +45,8 @@ class _BodyMathState extends State<BodyMath> {
                   SizedBox(height: 30,),
                   Text(' Height in CM',style: TextStyle (color: Color(0xffB47B84),fontSize: 20),),
                    TextField(
+                   // obscureText: true,
+                    //obscuringCharacter: '*',
                     onChanged: (value) {
                       h =double.parse(value);
                     },
