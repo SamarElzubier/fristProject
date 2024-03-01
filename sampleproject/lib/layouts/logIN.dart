@@ -43,7 +43,7 @@ class _LoginState extends State<Login> {
             children:[
               Text(' Your email :'),]),
             TextField(
-              onChanged: (String value) {
+              onChanged: (value) {
                 pass = int.parse(value);
               },
             obscureText: true,
