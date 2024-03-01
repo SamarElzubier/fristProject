@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+
 import 'package:sampleproject/layouts/logIN.dart';
 import 'package:sampleproject/navigattion.dart';
 //import 'package:sampleproject/BMI.dart';
@@ -23,7 +24,7 @@ import 'package:sampleproject/navigattion.dart';
 void main() {
   runApp(MaterialApp(
     theme: ThemeData.dark(),
-    home:Login()));
+    home:Navigate()));
   }
 
 

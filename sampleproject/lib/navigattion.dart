@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:sampleproject/BMI.dart';
 import 'package:sampleproject/calculator.dart';
 import 'package:sampleproject/homework.dart';
+import 'package:sampleproject/shared/components.dart';
 class Navigate extends StatelessWidget {
   const Navigate({super.key});
 
@@ -25,11 +26,13 @@ class Navigate extends StatelessWidget {
               ElevatedButton(onPressed: (() {
                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeWork()));
               }),//هذا النوع من النافيقيتر يجل الصفحة ولا يرجع للخلف مثل تسجيل الدخول للايميل
-               child: Text('my profile'))
+               child: Text('my profile')),
+               SizedBox(height: 20,),
+               myButton()
             ],
           ),
-
-      )),
+          )
+          ),
     );
   }
 }

@@ -13,8 +13,8 @@ class Faicon extends StatelessWidget {
         title: Text('just tries',
         style: TextStyle(fontSize: 20,fontFamily: 'flu',color: Color.fromARGB(255, 7, 7, 5))
         ,),
-        centerTitle: true, backgroundColor: Color.fromARGB(255, 236, 234, 135),leading: Icon(Icons.check_circle),
-        ),backgroundColor: Color.fromARGB(255, 231, 224, 205),
+        centerTitle: true, backgroundColor: Color.fromARGB(255, 236, 234, 135),leading: Icon(Icons.check_circle,color: Colors.black,),
+        ),backgroundColor: Color.fromARGB(255, 234, 222, 193),
       body: Center(
         
         child: Container(
@@ -29,14 +29,10 @@ class Faicon extends StatelessWidget {
            blurRadius:40,
             ),
              ] ),
-      child: FaIcon(Icons.facebook,size: 40,color: Color.fromARGB(255, 11, 95, 213),))
-      
-            // child: Text("welcome to my project",style: TextStyle(fontSize: 30, fontFamily:  'flu',),),
+             
+      child: FaIcon(Icons.facebook,size: 40,color: Color.fromARGB(255, 11, 95, 213),)),
+      // child: Text("welcome to my project",style: TextStyle(fontSize: 30, fontFamily:  'flu',),),
         )
-      
-      )
-        
-       
-    ;
+      );
   }
 }
