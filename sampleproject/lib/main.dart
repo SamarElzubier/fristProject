@@ -2,7 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:sampleproject/API.dart';
 import 'package:sampleproject/BMI.dart';
+import 'package:sampleproject/QouteApp.dart';
 
 //imp/import 'package:sampleproject/layouts/logIN.dart';
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         minTextAdapt: true,
         splitScreenMode: true,
         builder: (BuildContext context, child) {
-          return MaterialApp(theme: ThemeData.dark(), home: BodyMath());
+          return MaterialApp(theme: ThemeData.dark(), home: QoutApp());
         });
   }
 }
