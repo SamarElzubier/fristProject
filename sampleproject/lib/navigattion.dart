@@ -27,7 +27,7 @@ class Navigate extends StatelessWidget {
                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeWork()));
               }),//هذا النوع من النافيقيتر يجل الصفحة ولا يرجع للخلف مثل تسجيل الدخول للايميل
                child: Text('my profile')),
-               SizedBox(height: 20,),
+               SizedBox(height: 20),
                myButton()
             ],
           ),
